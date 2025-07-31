@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="UTF-8"><title>MasterUploader</title></head>
+<head>
+  <meta charset="UTF-8">
+  <title>MasterUploader</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 1rem; }
+    header, section, footer { margin-bottom: 2rem; }
+    ol { padding-left: 1.2rem; }
+    footer { font-size: 0.8rem; text-align: center; color: #555; }
+  </style>
+</head>
 <body>
-  <h1>MasterUploader</h1>
-  <p>Herramienta para productores que automatiza la conversión y subida de beats a YouTube y BeatStars.</p>
-  <ul>
-    <li><a href="privacy.html">Política de Privacidad</a></li>
-    <li><a href="terms.html">Términos de Servicio</a></li>
-  </ul>
+  <header>
+    <h1>MasterUploader</h1>
+    <p>Convierte tus beats en vídeos y los programa en YouTube y BeatStars con un solo clic.</p>
+  </header>
+
+  <section>
+    <h2>¿Cómo funciona?</h2>
+    <ol>
+      <li><strong>Prepara tu beat:</strong> Selecciona MP3/WAV, stems y portada.</li>
+      <li><strong>Configura los metadatos:</strong> Título, fecha, hora, key, BPM y descripción.</li>
+      <li><strong>Ejecuta:</strong> El sistema convierte, sube a BeatStars y programa tu vídeo en YouTube automáticamente.</li>
+      <li><strong>Comparte:</strong> Recibe enlaces directos y gestiona tu lanzamiento sin complicaciones.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Características clave</h2>
+    <ul>
+      <li>Conversión automática MP3 → MP4 con FFmpeg</li>
+      <li>Subida programada vía API (OAuth2) a YouTube</li>
+      <li>Subida sincronizada a BeatStars con Selenium</li>
+      <li>Soporte para stems, portadas y metadatos complejos</li>
+      <li>Pipeline “todo en uno” bajo Windows sin salir de la interfaz</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contacto y soporte</h2>
+    <p>
+      Escríbenos a <a href="mailto:marti@prodbytincho.com">marti@prodbytincho.com</a>.
+      Únete a nuestra <a href="https://discord.gg/x29GW2KA">comunidad en Discord</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 MasterUploader •
+    <a href="privacy.html">Política de Privacidad</a> •
+    <a href="terms.html">Términos de Servicio</a>
+  </footer>
 </body>
 </html>
